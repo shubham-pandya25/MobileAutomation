@@ -45,9 +45,6 @@ public class Learning1 {
             System.out.println(s);
         }
 
-
-
-
     }
 
 }
