@@ -16,7 +16,7 @@ public class Learning1 {
 
         // Array - to store the multiple value
 
-        int[] arr = new int[5];
+        int[] arr = new int[5]; //new will create memory for the variables to store.
 
         arr[0] = 1;
         arr[1] = 3;
@@ -28,17 +28,17 @@ public class Learning1 {
 
         System.out.println(arr1[1]);
 
-       // for (int i = 0; i < arr.length; i++)
-       // {
-         //   System.out.println(arr[i]);
-        //}
+        for (int i = 0; i < arr.length; i++)
+         {
+            System.out.println(arr[i]);
+         }
 
         String[] name = {"rahul", "shetty", "selenium", "shubham", "pandya"};
 
-      //  for (int i = 0; i < name.length; i++)
-        //{
-           // System.out.println(name[i]);
-        //}
+        for (int i = 0; i < name.length; i++)
+          {
+             System.out.println(name[i]);
+          }
 
         for(String s: name)
         {
@@ -48,3 +48,5 @@ public class Learning1 {
     }
 
 }
+
+//new content
