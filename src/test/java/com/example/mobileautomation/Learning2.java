@@ -3,6 +3,7 @@ package com.example.mobileautomation;
 import java.util.ArrayList;
 
 public class Learning2 {
+LearningFiles
     public static void main(String[] args) {
 
         int[]  arr3 = {1,2,4,5,6,7,8,9,122,10};
@@ -24,12 +25,11 @@ public class Learning2 {
         a.add("rahul");
         a.add("shetty");
         a.add("selenium");
-        System.out.println(a.get(2));
+        System.out.println(a.get(2));    
+
     }
 }
 
 //Array list is the class
 //If you want access any methods in the class, we need to create object of the class
 // create object of the class object.method
-
-//new content
