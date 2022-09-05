@@ -23,19 +23,5 @@ public class Learning3 {
             System.out.println(s.charAt(i));
         }
 
-//new content
-        
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
