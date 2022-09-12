@@ -3,6 +3,7 @@ package com.example.mobileautomation;
 import java.util.ArrayList;
 
 public class Learning2 {
+
     public static void main(String[] args) {
 
         int[]  arr3 = {1,2,4,5,6,7,8,9,122,10};
