@@ -26,7 +26,6 @@ public class SwipeDemo extends BaseTest{
         //Swipe
         swipeAction(firstImage, "left");
         Assert.assertEquals(driver.findElement(By.xpath("//android.widget.ImageView[1]")).getAttribute("focusable"),"false");
-        
     }
 
 }
