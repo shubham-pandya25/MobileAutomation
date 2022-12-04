@@ -34,4 +34,13 @@ import org.testng.annotations.Test;
         driver.findElement(AppiumBy.accessibilityId("Action Bar Mechanics")).click();
     }
 
+     @Test
+
+     public void  BarMechanics() {
+
+         driver.findElement(AppiumBy.accessibilityId("App")).click();
+         driver.findElement(AppiumBy.accessibilityId("Action Bar")).click();
+         driver.findElement(AppiumBy.accessibilityId("Action Bar Mechanics")).click();
+     }
+
 }
