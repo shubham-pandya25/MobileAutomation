@@ -19,7 +19,7 @@ public class DragDrop extends BaseTest {
         WebElement source = driver.findElement(By.id("io.appium.android.apis:id/drag_dot_1"));
         DragDropAction(source);
         Thread.sleep(3000);
-        
+
         String result = driver.findElement(By.id("io.appium.android.apis:id/drag_result_text")).getText();
         Assert.assertEquals(result, "Dropped!");
     }
