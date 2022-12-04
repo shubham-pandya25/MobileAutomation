@@ -1,11 +1,8 @@
 package com.example.mobileautomation;
 
 
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
-
 import java.net.MalformedURLException;
 
 public class ScrollDemo extends BaseTest{
@@ -18,7 +15,6 @@ public class ScrollDemo extends BaseTest{
 
         //where to scroll is known prior
         //driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"));
-
         //No prior idea where to scroll
 
         scrollToEndAction();
