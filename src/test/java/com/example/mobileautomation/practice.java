@@ -24,5 +24,15 @@ import org.testng.annotations.Test;
         Assert.assertEquals(toggletabmode, "Toggle tab mode");
         Assert.assertEquals(removealltabs, "Remove all tabs");
     }
-    
+
+    @Test
+
+    public void  ActionBarMechanics() {
+
+        driver.findElement(AppiumBy.accessibilityId("App")).click();
+        driver.findElement(AppiumBy.accessibilityId("Action Bar")).click();
+        driver.findElement(AppiumBy.accessibilityId("Action Bar Mechanics")).click();
+        
+    }
+
 }
