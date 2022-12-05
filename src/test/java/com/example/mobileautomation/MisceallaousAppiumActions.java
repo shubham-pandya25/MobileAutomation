@@ -23,7 +23,6 @@ public class MisceallaousAppiumActions extends BaseTest {
         driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]")).click();
         String alertTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
         Assert.assertEquals(alertTitle, "WiFi settings");
-
         driver.setClipboardText("Rahul Wifi");
         driver.findElement(By.id("android:id/edit")).sendKeys(driver.getClipboardText()); //get from clipboard
         driver.pressKey(new KeyEvent(AndroidKey.ENTER));
