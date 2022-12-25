@@ -1,5 +1,6 @@
 package com.example.mobileautomation;
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.openqa.selenium.By;
@@ -15,6 +16,9 @@ public class MisceallaousAppiumActions extends BaseTest {
     @Test
     public void Miceallaous()throws MalformedURLException {
 
+        //App Package & App Activity
+        // adb shell dumpsys window | grep -E 'mcurrentFocus`' -Mac
+        Activity activity = new Activity(null, null);
         driver.findElement(AppiumBy.accessibilityId("Preference")).click();
         driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies\']")).click();
         driver.findElement(By.id("android:id/checkbox")).click();
