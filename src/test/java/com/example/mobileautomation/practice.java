@@ -4,7 +4,7 @@ import io.appium.java_client.AppiumBy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
- public class practice extends BaseTest {
+ public class  practice extends BaseTest {
 
     @Test
 
