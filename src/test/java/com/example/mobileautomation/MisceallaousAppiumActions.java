@@ -18,9 +18,10 @@ public class MisceallaousAppiumActions extends BaseTest {
 
         //App Package & App Activity
         // adb shell dumpsys window | grep -E 'mcurrentFocus`' -Mac
-        Activity activity = new Activity(null, null);
-        driver.findElement(AppiumBy.accessibilityId("Preference")).click();
-        driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies\']")).click();
+        Activity activity = new Activity("io.appium.android.apis", "io.appium.android.apis.preference.PreferenceDependencies");
+        driver.startActivity(activity);
+    //    driver.findElement(AppiumBy.accessibilityId("Preference")).click();
+    //    driver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies\']")).click();
         driver.findElement(By.id("android:id/checkbox")).click();
         DeviceRotation landScape = new DeviceRotation(0,0, 90);  //Landscape mode
         driver.rotate(landScape);
