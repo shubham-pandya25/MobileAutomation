@@ -45,8 +45,24 @@ public class Learning1 {
             System.out.println(s);
         }
 
-    }
+        System.out.println("I love java programming"); //print in the output
 
+        int a =2;
+        int b=3;
+
+        int Sum=a+b;
+
+        System.out.println(Sum);
+
+        System.out.println("Sum is "+ Sum);
+
+
+Learning5 l=new Learning5();
+
+//Classobject.methodname
+System.out.println(l.ValidateHeader());
+
+    }
 }
 
 //new content
