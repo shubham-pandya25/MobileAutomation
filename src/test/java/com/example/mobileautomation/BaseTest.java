@@ -19,8 +19,10 @@ public class BaseTest {
     public void ConfigureAppium() throws MalformedURLException {
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Pixel XL API 32");
-        //options.setApp("//Users//shubhampandya//demo//MobileAutomation//src//test//java//resources//ApiDemos-debug.apk");
-        options.setApp("//Users//shubhampandya//demo//MobileAutomation//src//test//java//resources//General-Store.apk");
+
+        options.setApp("//Users//shubhampandya//demo//MobileAutomation//src//test//java//resources//ApiDemos-debug.apk");
+      //  options.setApp("//Users//shubhampandya//demo//MobileAutomation//src//test//java//resources//General-Store.apk");
+
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
